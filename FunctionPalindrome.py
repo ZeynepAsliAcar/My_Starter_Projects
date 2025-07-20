@@ -1,4 +1,4 @@
-function palindrome(S):
+def palindrome(S):
     OPT = new int[S.length][S.length + 1]
  
     for i = 0 to S.length - 1:
